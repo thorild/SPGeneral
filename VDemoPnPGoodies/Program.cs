@@ -25,10 +25,10 @@ namespace VDemoPnPGoodies
         {
 
            
-            string userName = "fredrik.thorild@acmebiz.onmicrosoft.com";
+            string userName = "*****.*****@acmebiz.onmicrosoft.com";
 
             SecureString securePassword = new SecureString();
-            string psw = "Jenny2222";
+            string psw = "*********";
             foreach (char c in psw)
             {
                 securePassword.AppendChar(c);
