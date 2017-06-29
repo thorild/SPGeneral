@@ -14,7 +14,7 @@ namespace VDemoPnPGoodies
     {
         static void Main(string[] args)
         {
-            using (var cc = GetContext())
+            using (var cc = GetContext("http://myUrl"))
             {
                 Console.WriteLine(cc.Web.Title);
                 CreateStartPageAndAddWebPart(cc);
@@ -25,7 +25,7 @@ namespace VDemoPnPGoodies
         {
 
            
-            string userName = "*****.*****@acmebiz.onmicrosoft.com";
+            string userName = "*****.*****@myUrl.onmicrosoft.com";
 
             SecureString securePassword = new SecureString();
             string psw = "*********";
