@@ -14,7 +14,7 @@ namespace VDemoPnPGoodies
     {
         static void Main(string[] args)
         {
-            using (var cc = GetContext("http://myUrl"))
+            using (var cc = GetContext("http://mySharePointUrl"))
             {
                 Console.WriteLine(cc.Web.Title);
                 CreateStartPageAndAddWebPart(cc);
@@ -133,7 +133,7 @@ namespace VDemoPnPGoodies
             var scriptCustomAction = cc.Site.UserCustomActions.Add();
             scriptCustomAction.Location = "ScriptLink";
             scriptCustomAction.Sequence = 100;
-            var css = "https://abb.sharepoint.com/sites/SEPSDCDevTopSite/SiteAssets/Css/";
+            var css = "https://xxxxxx.sharepoint.com/sites/SEPSDCDevTopSite/SiteAssets/Css/";
             scriptCustomAction.ScriptBlock = @"document.write('<link rel=""stylesheet"" href=""" + css + @"/breadcrumb.css"" />');";
             scriptCustomAction.Update();
             cc.ExecuteQuery();
@@ -148,7 +148,7 @@ namespace VDemoPnPGoodies
 
             foreach (var action in actions)
             {
-                if (action.Location == "ScriptLink" && action.ScriptSrc == "https://sogvas13.sharepoint.com/sites/vdemo/SiteAssets/myscript.js")
+                if (action.Location == "ScriptLink" && action.ScriptSrc == "https://xxxxxxx.sharepoint.com/sites/vdemo/SiteAssets/myscript.js")
                 {
                     action.DeleteObject();
                     cc.ExecuteQuery();
