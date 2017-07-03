@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThorildSnippets", "ThorildSnippets\ThorildSnippets.csproj", "{0591FB3A-DC19-4892-8701-31C993404250}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomActionScriptCSSInject", "ThorildSnippets\CustomActionScriptCSSInject.csproj", "{0591FB3A-DC19-4892-8701-31C993404250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDemo2", "ClientAppAuthenticate\ClientAppAuthenticate.csproj", "{C2AFCB51-0C61-4FE3-9272-7C3C1E28FA4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientAppAuthenticate", "ClientAppAuthenticate\ClientAppAuthenticate.csproj", "{C2AFCB51-0C61-4FE3-9272-7C3C1E28FA4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
