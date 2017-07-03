@@ -7,7 +7,7 @@ using System.Security.Principal;
 using System.Web;
 using System.Web.Configuration;
 
-namespace VDemoPnPGoodies
+namespace ThorildSnippets
 {
     /// <summary>
     /// Encapsulates all the information from SharePoint.

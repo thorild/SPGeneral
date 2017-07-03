@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDemoPnPGoodies", "VDemoPnPGoodies\VDemoPnPGoodies.csproj", "{0591FB3A-DC19-4892-8701-31C993404250}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThorildSnippets", "VDemoPnPGoodies\ThorildSnippets.csproj", "{0591FB3A-DC19-4892-8701-31C993404250}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
