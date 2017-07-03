@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientAppAuthenticate", "Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCreateAndSetup", "WebCreateAndSetup\WebCreateAndSetup.csproj", "{2A1B5487-88CB-4922-99B9-4F28A06684C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserProfileCode", "UserProfileCode\UserProfileCode.csproj", "{DF0C41B7-FE8A-47D0-BA83-144C4F17ECAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2A1B5487-88CB-4922-99B9-4F28A06684C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A1B5487-88CB-4922-99B9-4F28A06684C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A1B5487-88CB-4922-99B9-4F28A06684C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0C41B7-FE8A-47D0-BA83-144C4F17ECAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0C41B7-FE8A-47D0-BA83-144C4F17ECAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0C41B7-FE8A-47D0-BA83-144C4F17ECAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0C41B7-FE8A-47D0-BA83-144C4F17ECAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
