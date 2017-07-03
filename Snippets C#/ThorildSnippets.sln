@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCreateAndSetup", "WebCre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserProfileCode", "UserProfileCode\UserProfileCode.csproj", "{DF0C41B7-FE8A-47D0-BA83-144C4F17ECAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedProjectSiteSetup", "AdvancedProjectSiteSetup\AdvancedProjectSiteSetup.csproj", "{D95AFCB0-150B-43C2-96B5-82E2190066D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DF0C41B7-FE8A-47D0-BA83-144C4F17ECAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF0C41B7-FE8A-47D0-BA83-144C4F17ECAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF0C41B7-FE8A-47D0-BA83-144C4F17ECAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D95AFCB0-150B-43C2-96B5-82E2190066D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95AFCB0-150B-43C2-96B5-82E2190066D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95AFCB0-150B-43C2-96B5-82E2190066D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95AFCB0-150B-43C2-96B5-82E2190066D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
