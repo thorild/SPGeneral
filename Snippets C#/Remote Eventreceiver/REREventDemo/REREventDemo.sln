@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REREventDemo", "REREventDemo\REREventDemo.csproj", "{36C23ED3-361A-42CA-8FF1-0627951F56E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REREventDemoWeb", "REREventDemoWeb\REREventDemoWeb.csproj", "{A3993D8F-B3C3-4775-B9A3-F5103D69F43B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36C23ED3-361A-42CA-8FF1-0627951F56E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C23ED3-361A-42CA-8FF1-0627951F56E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C23ED3-361A-42CA-8FF1-0627951F56E5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{36C23ED3-361A-42CA-8FF1-0627951F56E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C23ED3-361A-42CA-8FF1-0627951F56E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C23ED3-361A-42CA-8FF1-0627951F56E5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A3993D8F-B3C3-4775-B9A3-F5103D69F43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3993D8F-B3C3-4775-B9A3-F5103D69F43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3993D8F-B3C3-4775-B9A3-F5103D69F43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3993D8F-B3C3-4775-B9A3-F5103D69F43B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
